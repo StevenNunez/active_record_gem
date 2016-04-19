@@ -1,0 +1,5 @@
+desc "Loads all the things"
+task :console do
+  require_relative 'config/environment'
+  Pry.start
+end
